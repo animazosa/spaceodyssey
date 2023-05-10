@@ -127,7 +127,7 @@ body{
     .container img{
         position: absolute;
         width: 260vw;
-        top: -15vw;
+        top: -20vw;
         left:-110vw;
         object-fit: contain;
     }
