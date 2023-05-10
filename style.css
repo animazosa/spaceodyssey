@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inconsolata", sans-serif;
+    background-color: rgb(12, 12, 12);
+    background-size: cover;
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container img{
+    position: absolute;
+    width: 100vw;
+    top: -3;
+    left:0;
+    object-fit: contain;
+}
+
+.container h1{
+    color: rgb(236, 240, 243);
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    z-index: 1;
+    position: absolute;
+    top: 10vw;
+    left: 5vw;
+}
+
+.container h2{
+    color: rgb(236, 240, 243);
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: right;
+    z-index: 1;
+    position: absolute;
+    top: 35vw;
+    left: 70vw;
+}
+
+.container h3{
+    color: rgb(236, 240, 243);
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    z-index: 1;
+    position: absolute;
+    top: 10vw;
+    left: 97vw;
+    writing-mode: vertical-rl;
+}
+
+.container h4{
+    color: rgb(236, 240, 243);
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 400;
+    font-size: 1.8vw;
+    text-align: right;
+    z-index: 1;
+    position: absolute;
+    top: 42vw;
+    left: 57vw;
+}
+
+.container h5{
+    color: rgb(236, 240, 243);
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: right;
+    z-index: 1;
+    position: absolute;
+    top: 37vw;
+    left: 19vw;
+}
+
+.container h6{
+    color: rgb(236, 240, 243);
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: right;
+    z-index: 1;
+    position: absolute;
+    top: 38.2vw;
+    left: 18vw;
+}
+
+.container p{
+    color: rgb(236, 240, 243);
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: right;
+    z-index: 1;
+    position: absolute;
+    top: 39.4vw;
+    left: 20vw;
+}
+
+
+@media screen and (max-width:380px){
+
+    .container{
+        position: relative;
+        width: 100vw;
+        height: 200vw;
+        max-height: 812px;
+        display: flex;
+
+        overflow: hidden;
+    }
+    
+    .container img{
+        position: absolute;
+        width: 260vw;
+        top: -15vw;
+        left:-110vw;
+        object-fit: contain;
+    }
+
+    .container img.object1{
+        position: absolute;
+        width: 250vw;
+        top: 50vw;
+        left: -30vw;
+        object-fit: contain;
+
+    }
+
+    .container img.object2{
+ 
+        position: absolute;
+        width: 110vw;
+        top: 50vw;
+        left: -4vw;
+        object-fit: contain;
+ 
+    }
+    
+    .container h1{
+        color: rgb(236, 240, 243);
+        font-family: 'Inconsolata', sans-serif;
+        font-weight: 400;
+        font-size: 3vw;
+        z-index: 1;
+        position: absolute;
+        top: 10vw;
+        left: 5vw;
+    }
+    
+    .container h2{
+        color: rgb(236, 240, 243);
+        font-family: 'Inconsolata', sans-serif;
+        font-weight: 400;
+        font-size: 3vw;
+        text-align: right;
+        z-index: 1;
+        position: absolute;
+        top: 180vw;
+        left: 30vw;
+    }
+    
+    .container h3{
+        color: rgb(236, 240, 243);
+        font-family: 'Inconsolata', sans-serif;
+        font-weight: 400;
+        font-size: 3vw;
+        z-index: 1;
+        position: absolute;
+        top: 25vw;
+        left: 90vw;
+        writing-mode: vertical-rl;
+    }
+    
+    .container h4{
+        color: rgb(236, 240, 243);
+        font-family: 'Inconsolata', sans-serif;
+        font-weight: 400;
+        font-size: 5vw;
+        text-align: right;
+        z-index: 1;
+        position: absolute;
+        top: 100vw;
+        left: 20vw;
+    }
+    
+    .container h5{
+        color: rgb(236, 240, 243);
+        font-family: 'Inconsolata', sans-serif;
+        font-weight: 400;
+        font-size: 3vw;
+        text-align: right;
+        z-index: 1;
+        position: absolute;
+        top: 145vw;
+        left: 15vw;
+    }
+    
+    .container h6{
+        color: rgb(236, 240, 243);
+        font-family: 'Inconsolata', sans-serif;
+        font-weight: 400;
+        font-size: 3vw;
+        text-align: right;
+        z-index: 1;
+        position: absolute;
+        top: 149vw;
+        left: 13vw;
+    }
+    
+    .container p{
+        color: rgb(236, 240, 243);
+        font-family: 'Inconsolata', sans-serif;
+        font-weight: 400;
+        font-size: 3vw;
+        text-align: right;
+        z-index: 1;
+        position: absolute;
+        top: 153vw;
+        left: 16vw;
+    }
+    
+}

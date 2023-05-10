@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spaceodyssey</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;800&display=swap');
+                body {
+                  font-family: 'Inconsolata', sans-serif;
+                }
+        </style>
+    
+</head>
+<body>
+
+    <div class="container">
+    <img src="bild.jpg" class="object1" data-value="3" alt="">
+    <img src="bild.jpg" class="object" data-value="3" alt="">
+    <img src="text3.png" class="object2" data-value="5" alt="">
+    <h1 class="object" data-value="-1">
+    “The stars were thinning out; the glare of <br>
+    Milky Way was dimming into a pale ghost <br>
+    of the glory he had known—and, when he was <br>
+    ready, would know again. -
+    </h1>
+    <h2 class="object" data-value="-5">
+    He was back, precisely where he wished to be,<br>
+    in the space that men called real.”
+    </h2>
+    <h3 class="object" data-value="-5">3. April 1968 (United States)</h3>
+    <h4 class="object" data-value="4">A film by Stanley Kubrick</h4>
+    <h5 class="object" data-value="1">Starring</h5>
+    <h6 class="object" data-value="-1">Keir Dullea</h6>
+    <p class="object" data-value="-2">Gary Lockwood</p>
+    </div>
+
+<script type="text/javascript">
+    document.addEventListener("mousemove", parallax);
+    function parallax(e){
+        document.querySelectorAll(".object").forEach(function(move){
+
+            var moving_value = move.getAttribute("data-value");
+            var x = (e.clientX * moving_value) / 100;
+            var y = (e.clientY * moving_value) / 100;
+
+            move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
+        });
+    }
+
+
+
+</script>
+    
+</body>
+</html>
